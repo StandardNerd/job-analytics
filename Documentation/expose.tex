@@ -1,0 +1,99 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+\title{Exposé: Ermittlung der Anforderung digitaler Kompetenzen von Mitarbeitenden in öffentlichen Verwaltungen mittels automatischer Auswertung von Stellenanzeigen}
+\author{Joon Ki Choi}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Forschungsfrage und Zielsetzung}
+
+\hspace{11pt} \textbf{Zentrale Forschungsfrage:} "Was sind die digitalen Kompetenzen, die an
+
+\setlength{\parindent}{15pt}Mitarbeitende in öffentlichen Verwaltungen heutzutage gestellt werden?"\\
+
+\textbf{Ziele der Arbeit:}
+
+\begin{itemize}
+	\item Entwicklung eines automatisierten Systems zur Analyse von Stellenanzeigen für die Identifikation und Kategorisierung digitaler Kompetenzanforderungen
+	\item Schaffung einer wissenschaftlich fundierten Übersicht aktueller digitaler Kompetenzprofile nach DigComp Framework
+\end{itemize}
+
+\section{Methodischer Ansatz}
+
+\subsection{Bestimmung von Digitalen Kompetenzen}
+Beschreiben und Ermitteln der digitalen Kompetenzen nach DigComp Framework.
+
+\subsection{Entwicklung der technischen Komponenten}
+\begin{itemize}
+	\item Entwicklung eines Web-Scrapers zur Sammlung von Stellenanzeigen (in öffentlichen Verwaltungen)
+	\item Integration von Large Language Models (LLMs) zur automatisierten Datenextraktion und -kategorisierung
+	\item Entwicklung einer Webapplikation zur Systemsteuerung und Ergebnispräsentation
+\end{itemize}
+
+\subsection{Methodische Schritte}
+\begin{itemize}
+	\item Anforderungsanalyse und Systemdesign
+	\item Aufbau eines leistungsfähigen AI-Servers zum lokalen Betrieb von LLMs
+	\item Vergleich kommerzieller und Open-Source LLMs
+	\item Implementation und iterative Validierung des Systems
+\end{itemize}
+
+\section{Erwartete Ergebnisse}
+\begin{itemize}
+	\item Applikation des entwickelten Analysesystems als Opensource Software
+	\item Erkenntnisse zum aktuellen Stand zur digitalen Kompetenzanforderung in öffentlichen Verwaltungen
+\end{itemize}
+
+\section{Technische Spezifikationen}
+\textbf{Technologiestack:}
+\begin{itemize}
+	\item Web-Scraping: Ruby, Watir (Selenium)
+	\item LLM-Integration: *to be defined*
+	\item Webapplikation: Ruby on Rails, JS Client
+	\item Datenbank: PostgreSQL
+	\item Serverinfrastruktur: Proxmox, AI-Server mit GPU-Unterstützung
+\end{itemize}
+
+\clearpage
+
+\section{Zeitplan}
+\textbf{Meilensteine:}
+\begin{itemize}
+	\item \textbf{Konzeptphase: 2 Wochen}
+	      \begin{itemize}
+		      \item Recherche
+		      \item Installation und Konfiguration AI-Server
+		      \item Anwendungs-Systemarchitektur
+		      \item Betrieb und Vergleichstests LLMs
+	      \end{itemize}
+	\item \textbf{Entwicklungsphase: 8 Wochen}
+	      \begin{itemize}
+		      \item Scraper-Entwicklung
+		      \item LLM-Integration
+		      \item Webapplikation (Client/Server)
+	      \end{itemize}
+	\item \textbf{Validierungsphase: 1 Woche}
+	      \begin{itemize}
+		      \item Systemtests
+		      \item Datenanalyse
+		      \item Optimierung
+	      \end{itemize}
+	\item \textbf{Dokumentationsphase: 1 Woche}
+	      \begin{itemize}
+		      \item Wissenschaftliche Ausarbeitung
+		      \item Technische Dokumentation
+	      \end{itemize}
+\end{itemize}
+
+\section{Erwartete Herausforderungen}
+\begin{itemize}
+	\item Qualität und Konsistenz der Auswertungsergebnisse von LLMs
+	\item Technische Komplexität der Systemintegration und Automatisierung (Automatisierungsgrad, Stabilität/Robustheit, Performance)
+\end{itemize}
+
+\end{document}
